@@ -1,5 +1,5 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="ie.kevinboyle.cordova.speech"
+        id="ie.kevinboyle.cordova.speech.Speech"
         version="0.0.1">
 
     <name>Speech</name>
@@ -14,8 +14,8 @@
         </js-module>
 
         <config-file target="config.xml" parent="/*">
-            <feature name="Speech">
-                <param name="wp-package" value="Speech"/>
+            <feature name="ie.kevinboyle.cordova.speech.Speech">
+                <param name="wp-package" value="ie.kevinboyle.cordova.speech.Speech"/>
             </feature>
         </config-file>
 
