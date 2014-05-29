@@ -9,7 +9,7 @@
 
     <!-- wp8 -->
     <platform name="wp8">
-        <js-module src="www/speech.js" name="speech">
+        <js-module src="www/speech.js" name="Speech">
             <clobbers target="speech" />
         </js-module>
 
