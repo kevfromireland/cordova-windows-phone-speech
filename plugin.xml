@@ -1,0 +1,24 @@
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="ie.kevinboyle.cordova.speech"
+        version="0.0.1">
+
+    <name>Speech</name>
+    <description>Use Windows Phone TTS</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova</keywords>
+
+    <!-- wp8 -->
+    <platform name="wp8">
+        <js-module src="www/speech.js" name="speech">
+            <clobbers target="openDatabase" />
+        </js-module>
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="Speech">
+                <param name="wp-package" value="Speech"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/wp/Speech" />
+    </platform>
+</plugin>
