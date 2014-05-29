@@ -1,5 +1,5 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="ie.kevinboyle.cordova.speech.Speech"
+        id="ie.kevinboyle.cordova.speech"
         version="0.0.1">
 
     <name>Speech</name>
