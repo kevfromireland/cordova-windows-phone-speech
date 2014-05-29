@@ -10,7 +10,7 @@
     <!-- wp8 -->
     <platform name="wp8">
         <js-module src="www/speech.js" name="speech">
-            <clobbers target="openDatabase" />
+            <clobbers target="speech" />
         </js-module>
 
         <config-file target="config.xml" parent="/*">
