@@ -19,6 +19,6 @@
             </feature>
         </config-file>
 
-        <source-file src="src/wp/Speech" />
+        <source-file src="src/wp/Speech.cs" />
     </platform>
 </plugin>
