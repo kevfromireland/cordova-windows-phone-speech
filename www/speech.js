@@ -1,10 +1,10 @@
-﻿var exec = require('cordova/exec');
-function Speech() {
-        alert('created');
-}
+    var exec = require('cordova/exec');
 
-Speech.prototype.speak = function (text, successCallback, errorCallback) {
-    exec(successCallback, errorCallback, "ie.kevinboyle.cordova.speech.Speech", "speak", [text]);
-};
+    function Speech() {
+    }
 
-module.exports = new Speech();
+    Speech.prototype.speak = function (text, successCallback, errorCallback) {
+        exec(successCallback, errorCallback, "ie.kevinboyle.cordova.speech.Speech", "speak", [text]);
+    };
+
+    module.exports = new Speech();
